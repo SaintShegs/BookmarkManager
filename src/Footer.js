@@ -21,9 +21,11 @@ const Footer = () => {
             
         </ul>
         <div>
-            <FaFacebookSquare className='fb'/>
 
-        <FaTwitter className='fb'/>
+        <FaFacebookSquare className='fb'/>
+         <FaTwitter className='fb'/>
+            
+
         </div>
         
         

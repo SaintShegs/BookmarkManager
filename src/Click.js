@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import second from './Images/illustration-features-tab-1.svg'
 
 const Click = () => {
+
+const [org,setOrg]=useState('Organize your bookmarks however you like. Our simple grag-and-drop interface gives you complete control over how you manage your favourite sites.')
+
+
+
+
+
   return (
     <div className='hero'>
 
@@ -17,9 +24,11 @@ const Click = () => {
         <section className='sec section2'>
             <h1>Bookmark in one click</h1>
             <p className='organize'>
-                Organize your bookmarks however you like. Our simple grag-and-drop interface gives you complete control over how you manage your favourite sites.
+                {org}
             </p>
-            <button className='info'>More info</button>
+            <button onClick={()=>setOrg(
+              'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus accusantium voluptas omnis soluta, atque ut possimus dolor nemo ullam incidunt quis optio vel ipsum mollitia aliquid exercitationem repellendus voluptate?')
+            } className='info'>More info</button>
             {/* <a className='info' href=""> More info</a> */}
         </section>
     
