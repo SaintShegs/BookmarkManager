@@ -26,11 +26,10 @@
     }
     .rub{
         background-color: rgba(82,102,223,255);
-        /* padding: 10%; */
         border-top-left-radius: 230%;
         border-bottom-left-radius: 230%;
         position: absolute;
-        right: 0px;
+       
      
         /* top: 220px;
         width: 220px;
@@ -117,7 +116,7 @@
         z-index: -1; */
        
 
-        bottom: -420px;
+        bottom: -285px;
     width: 250px;
     left: 0%;
     height: 190px;
@@ -126,7 +125,83 @@
     }
       
  }
+ @media (min-width:375px){
+    .rub2{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-right-radius: 250%;
+        border-bottom-right-radius: 225%;
+        position: absolute;
+        bottom: -330px;
+        width: 250px;
+        left: 0%;
+        height: 190px;
+        z-index: -1;
+    }
+    .rub{
+        background-color: rgba(82,102,223,255);
+        border-top-left-radius: 230%;
+        border-bottom-left-radius: 230%;
+        position: absolute;
+        right: 0px;
+        top: 160px;
+        width: 250px;
+        height: 170px;
+        z-index: -1;
+    } 
+ }
 
+ @media (min-width:400px){
+    .rub2{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-right-radius: 250%;
+        border-bottom-right-radius: 225%;
+        position: absolute;
+        bottom: -370px;
+        width: 250px;
+        left: 0%;
+        height: 190px;
+        z-index: -1;
+    }
+    .rub{
+        background-color: rgba(82,102,223,255);
+        border-top-left-radius: 230%;
+        border-bottom-left-radius: 230%;
+        position: absolute;
+        right: 0px;
+        top: 175px;
+        width: 250px;
+        height: 170px;
+        z-index: -1;
+    } 
+ }
+
+ @media (min-width:440px){
+    .rub2{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-right-radius: 250%;
+        border-bottom-right-radius: 225%;
+        position: absolute;
+        bottom: -425px;
+        width: 250px;
+        left: 0%;
+        height: 190px;
+        z-index: -1;
+    }
+    .rub{
+        background-color: rgba(82,102,223,255);
+        border-top-left-radius: 230%;
+        border-bottom-left-radius: 230%;
+        position: absolute;
+        right: 0px;
+        top: 200px;
+        width: 250px;
+        height: 170px;
+        z-index: -1;
+    } 
+ }
 
 @media (min-width:480px)  {
     .hero{
@@ -244,10 +319,10 @@
         z-index: -1; */
        
 
-        bottom: -685px;
+        bottom: -425px;
     width: 361px;
     left: 0%;
-    height: 280px;
+    height: 225px;
         z-index: -1;
     
     }
@@ -370,7 +445,7 @@
         z-index: -1; */
        
 
-        bottom: -675px;
+        bottom: -585px;
     width: 361px;
     left: 0%;
     height: 280px;
@@ -494,7 +569,7 @@
         z-index: -1; */
        
 
-        bottom: -290px;
+        bottom: -170px;
     width: 361px;
     left: 0%;
     height: 280px;
@@ -742,10 +817,9 @@ h1{
     width: 520px;
     height: 300px;
     z-index: -1; */
-    bottom: -600px;
+    bottom: -430px;
     width: 550px;
     height: 360px;
     z-index: -1;
-
 }
 }

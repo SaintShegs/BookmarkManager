@@ -5,6 +5,7 @@ const Click = () => {
 
 const [org,setOrg]=useState('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.')
 
+
 function switc () {
   if(org=='Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.') {
 
@@ -15,6 +16,11 @@ function switc () {
     setOrg('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.')
   }
 }
+
+
+
+
+
 
 
 
@@ -36,9 +42,17 @@ function switc () {
             <p className='organize'>
                 {org}
             </p>
+
+
             <button onClick={()=>{switc()}
-            } className='info'>More info</button>
-            {/* <a className='info' href=""> More info</a> */}
+            }className='info'>More info</button>
+
+
+
+<a className='info' href="" onClick={switc}> More info  </a>
+
+
+
         </section>
     
 
