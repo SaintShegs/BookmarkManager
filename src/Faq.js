@@ -8,7 +8,7 @@ const Faq = () => {
 
 
     <h1>Frequently Asked Questions</h1>
-    <p className='aim'>Here are some of our FAQs. If you have any other questions you'd like answered, Please feel free to email us</p>
+    <p className='aim'>Here are some of our FAQs. If you have any other questions you'd like answered, Please feel free to email us.</p>
 
 
     <Accordion className='acc' defaultActiveKey="0" flush>
@@ -37,7 +37,7 @@ const Faq = () => {
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
-    <Accordion.Header>is there a mobile app?</Accordion.Header>
+    <Accordion.Header>Is there a mobile app?</Accordion.Header>
     <Accordion.Body>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

@@ -3,8 +3,18 @@ import second from './Images/illustration-features-tab-1.svg'
 
 const Click = () => {
 
-const [org,setOrg]=useState('Organize your bookmarks however you like. Our simple grag-and-drop interface gives you complete control over how you manage your favourite sites.')
+const [org,setOrg]=useState('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.')
 
+function switc () {
+  if(org=='Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.') {
+
+    setOrg('Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus accusantium voluptas omnis soluta, atque ut possimus dolor nemo ullam incidunt quis optio vel ipsum mollitia aliquid exercitationem repellendus voluptate?'
+      )
+  }
+  else if (org=='Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus accusantium voluptas omnis soluta, atque ut possimus dolor nemo ullam incidunt quis optio vel ipsum mollitia aliquid exercitationem repellendus voluptate?') {
+    setOrg('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.')
+  }
+}
 
 
 
@@ -26,8 +36,7 @@ const [org,setOrg]=useState('Organize your bookmarks however you like. Our simpl
             <p className='organize'>
                 {org}
             </p>
-            <button onClick={()=>setOrg(
-              'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus accusantium voluptas omnis soluta, atque ut possimus dolor nemo ullam incidunt quis optio vel ipsum mollitia aliquid exercitationem repellendus voluptate?')
+            <button onClick={()=>{switc()}
             } className='info'>More info</button>
             {/* <a className='info' href=""> More info</a> */}
         </section>

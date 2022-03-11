@@ -11,11 +11,11 @@ const Extension = () => {
 
     <h1>Download the extension</h1>
 
-    <p className='aim'>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd lie us to prioritize</p>
+    <p className='aim'>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd liKe us to prioritize.</p>
 
     <div className='browsers'>
         
-        <section className='chrome'>
+        <div className='chrome'>
        <img src={chro} alt="" />
        <h3>Add to chrome</h3>
        <p>Minimum version 6.2</p>
@@ -23,7 +23,7 @@ const Extension = () => {
         <a href="" className='info install'>Add and install Extension</a>
 
 
-        </section>
+        </div>
 
 
 

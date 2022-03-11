@@ -3,7 +3,7 @@ import { FaFacebookSquare,FaTwitter } from "react-icons/fa";
 // import { FaFacebookSquare } from '@fortawesome/free-solid-svg-icons'
 
 import foo from './Images/logo-bookmark.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
@@ -14,12 +14,12 @@ const Footer = () => {
         <img src={foo} alt="" />
 
 
-        <ul className='last'>
-            <li><a className='footNavi' href="">Features</a></li>
-            <li><a className='footNavi' href="">Pricing</a></li>
-            <li><a className='footNavi' href="">Contact</a></li>
+        {/* <ul className='last'> */}
+            <li className='ag'><a className='footNavi' href="">Features</a></li>
+            <li className='ag'><a className='footNavi' href="">Pricing</a></li>
+            <li className='ag'><a className='footNavi' href="">Contact</a></li>
             
-        </ul>
+        {/* </ul> */}
         <div>
 
         <FaFacebookSquare className='fb'/>

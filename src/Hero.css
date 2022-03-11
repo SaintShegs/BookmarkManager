@@ -1,11 +1,147 @@
-@media (min-width:600px)  { 
-
+@media (min-width:320px)  { 
     .hero{
-        padding: 45px;
+        padding: 10px;
+        display: block;
+      
+        
+    }
+    .heromo{
         display: flex;
+        flex-direction: column-reverse;
     }
     .heroimage{
+        max-width: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+    
+    h1{
+        color: rgba(36,41,70,255);
+        font-size: 34px;
+    }
+    .clean{
+        color: rgba(36,41,70,255);
+        width: 100%; 
+        margin-bottom: 50px;
+    }
+    .rub{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-left-radius: 230%;
+        border-bottom-left-radius: 230%;
+        position: absolute;
+        right: 0px;
+     
+        /* top: 220px;
+        width: 220px;
+        height: 120px;
+        z-index: -1; */
+    
+        right: 0px;
+        top: 125px;
+    width: 250px;
+    height: 170px;
+        z-index: -1;
+    
+        /* right: 0px;
+        top: 250px;
+        width: 580px;
+        height: 350px;
+        z-index: -1;*/
+    } 
+    
+    .sec{
         width: 100%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+    }
+    .browse{
+        text-decoration: none;
+        padding: 7px;
+        color: rgba(36,41,70,255) ;
+        outline-style: solid;
+        outline-width: 2px;
+        border-radius: 3px;
+        margin-right: 10px;
+    
+    }
+    
+    .browse:hover{
+        color: rgba(82,102,223,255);
+        text-decoration: none;
+        outline-style: solid;
+        border-radius: 3px;
+        padding: 7px;
+     
+    }
+    
+    .heroimage2{
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
+    }
+    .organize{
+      
+        color: rgba(36,41,70,255);
+        width: 100%;
+    
+        padding-bottom: 5%;
+       
+    }
+    
+    .section2{
+        /* padding-left: 10%; */
+        padding-top: 15%;
+       
+    }
+    .rub2{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-right-radius: 250%;
+        border-bottom-right-radius: 225%;
+        position: absolute;
+       
+        /* left: 0px;
+        bottom: -710px;
+        width: 340px;
+        height: 80px;
+        z-index: -1; */
+        /* left: 0px;
+        bottom: -290px;
+        width: 520px;
+        height: 300px;
+        z-index: -1; */
+       
+
+        bottom: -420px;
+    width: 250px;
+    left: 0%;
+    height: 190px;
+        z-index: -1;
+    
+    }
+      
+ }
+
+
+@media (min-width:480px)  {
+    .hero{
+        padding: 45px;
+        display: block;
+        
+    }
+    .heromo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heroimage{
+        max-width: 100%;
+        object-fit: contain;
+        margin: auto;
     }
     
     h1{
@@ -14,7 +150,7 @@
     }
     .clean{
         color: rgba(36,41,70,255);
-        width: 50%; 
+        width: 100%; 
         margin-bottom: 50px;
     }
     .rub{
@@ -30,7 +166,7 @@
         z-index: -1; */
     
         right: 0px;
-        top: 200px;
+        top: 150px;
         width: 340px;
         height: 245px;
         z-index: -1;
@@ -43,10 +179,12 @@
     } 
     
     .sec{
-        width: 50%;
+        width: 100%;
+        padding-bottom: 5%;
+        padding-left: 5%;
     }
     .sec2{
-        width: 50%;
+        width: 100%;
         display: flex;
     }
     .browse{
@@ -70,8 +208,9 @@
     }
     
     .heroimage2{
-        width: 100%;
-        margin-left: 10%;
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
     }
     .organize{
       
@@ -83,7 +222,8 @@
     }
     
     .section2{
-        padding-left: 10%;
+        /* padding-left: 10%; */
+        padding-top: 5%;
        
     }
     .rub2{
@@ -104,7 +244,133 @@
         z-index: -1; */
        
 
-        bottom: -310px;
+        bottom: -685px;
+    width: 361px;
+    left: 0%;
+    height: 280px;
+        z-index: -1;
+    
+    }
+      
+}
+@media (min-width:600px)  { 
+
+    .hero{
+        padding: 45px;
+        display: block;
+        
+    }
+    .heromo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heroimage{
+        max-width: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+    
+    h1{
+        color: rgba(36,41,70,255);
+        font-size: 35px;
+    }
+    .clean{
+        color: rgba(36,41,70,255);
+        width: 100%; 
+        margin-bottom: 50px;
+    }
+    .rub{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-left-radius: 230%;
+        border-bottom-left-radius: 230%;
+        position: absolute;
+        right: 0px;
+        /* top: 220px;
+        width: 220px;
+        height: 120px;
+        z-index: -1; */
+    
+        right: 0px;
+        top: 250px;
+        width: 340px;
+        height: 245px;
+        z-index: -1;
+    
+        /* right: 0px;
+        top: 250px;
+        width: 580px;
+        height: 350px;
+        z-index: -1;*/
+    } 
+    
+    .sec{
+        width: 100%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+    }
+    .browse{
+        text-decoration: none;
+        padding: 7px;
+        color: rgba(36,41,70,255) ;
+        outline-style: solid;
+        outline-width: 2px;
+        border-radius: 3px;
+        margin-right: 25px;
+    
+    }
+    
+    .browse:hover{
+        color: rgba(82,102,223,255);
+        text-decoration: none;
+        outline-style: solid;
+        border-radius: 3px;
+        padding: 7px;
+     
+    }
+    
+    .heroimage2{
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
+    }
+    .organize{
+      
+        color: rgba(36,41,70,255);
+        width: 100%;
+    
+        padding-bottom: 5%;
+       
+    }
+    
+    .section2{
+        /* padding-left: 10%; */
+        padding-top: 5%;
+       
+    }
+    .rub2{
+        background-color: rgba(82,102,223,255);
+        /* padding: 10%; */
+        border-top-right-radius: 250%;
+        border-bottom-right-radius: 225%;
+        position: absolute;
+        /* left: 0px;
+        bottom: -710px;
+        width: 340px;
+        height: 80px;
+        z-index: -1; */
+        /* left: 0px;
+        bottom: -290px;
+        width: 520px;
+        height: 300px;
+        z-index: -1; */
+       
+
+        bottom: -675px;
     width: 361px;
     left: 0%;
     height: 280px;
@@ -114,18 +380,21 @@
     
 
 }
-
-
-
-
 @media (min-width:801px)  { 
 
     .hero{
         padding: 45px;
         display: flex;
     }
+    .heromo{
+        padding: 45px;
+        display: flex;
+        flex-direction: row;
+    }
     .heroimage{
-        width: 100%;
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
     }
     
     h1{
@@ -134,7 +403,7 @@
     }
     .clean{
         color: rgba(36,41,70,255);
-        width: 50%; 
+        width: 100%; 
         margin-bottom: 50px;
     }
     .rub{
@@ -190,8 +459,9 @@
     }
     
     .heroimage2{
-        width: 100%;
-        margin-left: 10%;
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
     }
     .organize{
       
@@ -224,7 +494,7 @@
         z-index: -1; */
        
 
-        bottom: -310px;
+        bottom: -290px;
     width: 361px;
     left: 0%;
     height: 280px;
@@ -234,17 +504,21 @@
     
 
 }
-
-
-
 @media (min-width:1025px) { 
 
     .hero{
         padding: 45px;
         display: flex;
     }
+    .heromo{
+        padding: 45px;
+        display: flex;
+        flex-direction: row
+    }
     .heroimage{
-        width: 100%;
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
     }
     
     h1{
@@ -253,7 +527,7 @@
     }
     .clean{
         color: rgba(36,41,70,255);
-        width: 50%; 
+        width: 100%; 
         margin-bottom: 50px;
     }
     .rub{
@@ -309,8 +583,9 @@
     }
     
     .heroimage2{
-        width: 100%;
-        margin-left: 15%;
+        object-fit: contain;
+        max-width: 100%;
+        margin: auto;
     }
     .organize{
       
@@ -356,8 +631,16 @@
     padding: 45px;
     display: flex;
 }
+.heromo{
+    padding: 45px;
+    display: flex;
+    flex-direction: row
+}
+
 .heroimage{
-    width: 100%;
+    object-fit: contain;
+    max-width: 100%;
+    margin: auto;
 }
 
 h1{
@@ -426,8 +709,9 @@ h1{
 }
 
 .heroimage2{
-    width: 100%;
-    margin-left: 15%;
+    object-fit: contain;
+    max-width: 100%;
+    margin: auto;
 }
 .organize{
   
